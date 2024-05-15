@@ -99,7 +99,7 @@ const ProductListPage = () => {
   };
 
   return (
-    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="center">
+    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} >
       <div>
         <h1>PRODUCT MANAGEMENT APPLICATION</h1>
       </div>
