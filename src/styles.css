@@ -1,20 +1,30 @@
-/* src/styles.css */
 
-/* Responsive layout */
 @media screen and (max-width: 768px) {
-    /* Adjust layout for screens smaller than 768px */
-    /* Example: */
+ 
     .container {
       flex-direction: column;
     }
   }
   
-  /* Responsive typography */
+  
   @media screen and (max-width: 480px) {
-    /* Adjust typography for screens smaller than 480px */
-    /* Example: */
+ 
     body {
       font-size: 14px;
     }
+   
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+h1 {
+  animation: fadeIn 1s ease-in-out; 
+}
+
   }
   
